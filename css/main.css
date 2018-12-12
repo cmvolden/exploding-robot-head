@@ -23,13 +23,65 @@ body {
 
 .robot-body {
   width: 320px;
+  position: relative;
+  padding-top: 55px;
+  display: block;
+
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
+  top: 35px;
+  left: 135px;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  top: 5px;
+}
+
+.robot-head-right {
+  right: 40px;
+}
+
+.robot-head-left {
+  left: 40px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .robot-body {
+    width: 320px;
+    position: relative;
+    padding-top: 55px;
+    left:350px;
+    display: block;
+
+  }
+
+  .robot-brain {
+    width: 46px;
+    position: absolute;
+    top: 35px;
+    left: 135px;
+  }
+
+  .robot-head-right,
+  .robot-head-left {
+    width: 125px;
+    position: absolute;
+    top: 5px;
+  }
+
+  .robot-head-right {
+    right: 40px;
+  }
+
+  .robot-head-left {
+    left: 40px;
+  }
+
 }
