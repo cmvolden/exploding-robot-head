@@ -43,7 +43,7 @@ body {
 }
 
 .robot-head-right {
-  right: 40px;
+  left: 165px;
 }
 
 .robot-head-left {
@@ -75,7 +75,7 @@ body {
   }
 
   .robot-head-right {
-    right: 370px;
+    left: 485px;
   }
 
   .robot-head-left {
@@ -88,12 +88,11 @@ body {
   }
 
   .robot:hover .robot-head-right {
-    right: 335px;
+    left: 520px;
   }
 
   .robot:hover .robot-head-left {
     left: 325px;
   }
-
 
 }
