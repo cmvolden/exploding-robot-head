@@ -82,13 +82,19 @@ body {
     left: 360px;
   }
 
-  .robot-head-right:hover {
-    right: 300px;
+  .robot .robot-head-right:hover {
+    right: 335px;
   }
 
-  .robot-head-left:hover {
-    left: 300px;
+  .robot .robot-head-left:hover {
+    left: 325px;
   }
 
+  .robot-brain:hover {
+    width: 46px;
+    position: absolute;
+    top: 30px;
+    left: 460px;
+  }
 
 }
