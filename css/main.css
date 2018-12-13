@@ -31,23 +31,23 @@ body {
 .robot-brain {
   width: 46px;
   position: absolute;
-  top: 35px;
-  left: 135px;
+  top: 55px;
+  left: 140px;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
   position: absolute;
-  top: 5px;
+  top: 17px;
 }
 
 .robot-head-right {
-  left: 165px;
+  left: 160px;
 }
 
 .robot-head-left {
-  left: 40px;
+  left: 35px;
 }
 
 @media only screen and (min-width: 60em) {
@@ -63,7 +63,7 @@ body {
   .robot-brain {
     width: 46px;
     position: absolute;
-    top: 50px;
+    top: 55px;
     left: 460px;
   }
 
@@ -71,7 +71,7 @@ body {
   .robot-head-left {
     width: 125px;
     position: absolute;
-    top: 5px;
+    top: 17px;
   }
 
   .robot-head-right {
@@ -89,10 +89,12 @@ body {
 
   .robot:hover .robot-head-right {
     left: 520px;
+    top: 5px;
   }
 
   .robot:hover .robot-head-left {
     left: 325px;
+    top: 5px;
   }
 
 }
